@@ -1,0 +1,45 @@
+services:
+  - type: web
+    name: iceflower-flo-backend
+    runtime: docker
+    rootDir: backend
+    plan: standard
+    autoDeploy: true
+    healthCheckPath: /api/health
+    disk:
+      name: trade-ledger
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: DERIV_APP_ID
+        sync: false
+      - key: DERIV_TOKEN
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: AUTO_START_TRADER
+        value: "true"
+      - key: MAX_STAKE_PER_TRADE
+        value: "0.35"
+      - key: MIN_PROFIT_TARGET
+        value: "0.02"
+      - key: MAX_DAILY_LOSS
+        value: "0.20"
+      - key: CONFIDENCE_THRESHOLD
+        value: "0.90"
+      - key: MAX_CONCURRENT_TRADES
+        value: "1"
+      - key: MAX_CONSECUTIVE_LOSSES
+        value: "3"
+      - key: MAX_PENDING_TRADE_AGE_MS
+        value: "180000"
+      - key: CORS_ORIGINS
+        sync: false
+      - key: TRADE_LEDGER_PATH
+        value: /data/trade-ledger.ndjson
+      - key: ML_PREDICT_URL
+        sync: false

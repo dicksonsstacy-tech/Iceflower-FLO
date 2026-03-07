@@ -1,0 +1,12 @@
+{
+  "name": "iceflower-flo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix my-react-app run dev\" \"npm --prefix backend run dev\"",
+    "install:all": "npm install --prefix my-react-app && npm install --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

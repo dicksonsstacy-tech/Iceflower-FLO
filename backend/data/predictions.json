@@ -1,0 +1,902 @@
+[
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 68,
+    "symbol": "R_100",
+    "ts": 1772224024000,
+    "quote": 822.29,
+    "receivedAt": 1772224024478
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 68,
+    "symbol": "R_100",
+    "ts": 1772224022000,
+    "quote": 822.29,
+    "receivedAt": 1772224022491
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 86,
+    "symbol": "R_100",
+    "ts": 1772224020000,
+    "quote": 822.46,
+    "receivedAt": 1772224020489
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772224018000,
+    "quote": 822.57,
+    "receivedAt": 1772224018508
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 80,
+    "symbol": "R_100",
+    "ts": 1772224016000,
+    "quote": 822.41,
+    "receivedAt": 1772224016470
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 81,
+    "symbol": "R_100",
+    "ts": 1772224014000,
+    "quote": 822.42,
+    "receivedAt": 1772224014478
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 44,
+    "symbol": "R_100",
+    "ts": 1772224012000,
+    "quote": 822.05,
+    "receivedAt": 1772224012454
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772224010000,
+    "quote": 821.93,
+    "receivedAt": 1772224010511
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772224008000,
+    "quote": 821.51,
+    "receivedAt": 1772224008467
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 73,
+    "symbol": "R_100",
+    "ts": 1772224006000,
+    "quote": 821.33,
+    "receivedAt": 1772224006475
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772224004000,
+    "quote": 821.76,
+    "receivedAt": 1772224004489
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772224002000,
+    "quote": 821.56,
+    "receivedAt": 1772224002524
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772224000000,
+    "quote": 821.61,
+    "receivedAt": 1772224000472
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223998000,
+    "quote": 821.79,
+    "receivedAt": 1772223998537
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 73,
+    "symbol": "R_100",
+    "ts": 1772223996000,
+    "quote": 821.33,
+    "receivedAt": 1772223996488
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 80,
+    "symbol": "R_100",
+    "ts": 1772223994000,
+    "quote": 821.41,
+    "receivedAt": 1772223994466
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772223992000,
+    "quote": 821.5,
+    "receivedAt": 1772223992466
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 92,
+    "symbol": "R_100",
+    "ts": 1772223990000,
+    "quote": 821.53,
+    "receivedAt": 1772223990489
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 62,
+    "symbol": "R_100",
+    "ts": 1772223988000,
+    "quote": 821.22,
+    "receivedAt": 1772223988470
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 59,
+    "symbol": "R_100",
+    "ts": 1772223986000,
+    "quote": 821.19,
+    "receivedAt": 1772223986514
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 69,
+    "symbol": "R_100",
+    "ts": 1772223984000,
+    "quote": 821.3,
+    "receivedAt": 1772223984474
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 70,
+    "symbol": "R_100",
+    "ts": 1772223982000,
+    "quote": 821.31,
+    "receivedAt": 1772223982494
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 53,
+    "symbol": "R_100",
+    "ts": 1772223980000,
+    "quote": 821.14,
+    "receivedAt": 1772223980468
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 52,
+    "symbol": "R_100",
+    "ts": 1772223978000,
+    "quote": 821.12,
+    "receivedAt": 1772223978477
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 57,
+    "symbol": "R_100",
+    "ts": 1772223976000,
+    "quote": 821.18,
+    "receivedAt": 1772223976495
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 61,
+    "symbol": "R_100",
+    "ts": 1772223974000,
+    "quote": 821.21,
+    "receivedAt": 1772223974490
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 53,
+    "symbol": "R_100",
+    "ts": 1772223972000,
+    "quote": 821.14,
+    "receivedAt": 1772223972530
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 62,
+    "symbol": "R_100",
+    "ts": 1772223970000,
+    "quote": 821.22,
+    "receivedAt": 1772223970500
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223968000,
+    "quote": 820.97,
+    "receivedAt": 1772223968495
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223966000,
+    "quote": 820.88,
+    "receivedAt": 1772223966505
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 65,
+    "symbol": "R_100",
+    "ts": 1772223964000,
+    "quote": 821.26,
+    "receivedAt": 1772223964466
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 50,
+    "symbol": "R_100",
+    "ts": 1772223962000,
+    "quote": 821.1,
+    "receivedAt": 1772223962484
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 50,
+    "symbol": "R_100",
+    "ts": 1772223960000,
+    "quote": 821.1,
+    "receivedAt": 1772223960511
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223958000,
+    "quote": 820.99,
+    "receivedAt": 1772223958476
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223956000,
+    "quote": 820.98,
+    "receivedAt": 1772223956457
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 93,
+    "symbol": "R_100",
+    "ts": 1772223954000,
+    "quote": 820.54,
+    "receivedAt": 1772223954484
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223952000,
+    "quote": 820.82,
+    "receivedAt": 1772223952464
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 48,
+    "symbol": "R_100",
+    "ts": 1772223950000,
+    "quote": 821.08,
+    "receivedAt": 1772223950448
+  },
+  {
+    "entry": 0,
+    "prediction": 0,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223948000,
+    "quote": 820.93,
+    "receivedAt": 1772223948562
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 44,
+    "symbol": "R_100",
+    "ts": 1772223946000,
+    "quote": 821.05,
+    "receivedAt": 1772223946561
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772223944000,
+    "quote": 821.51,
+    "receivedAt": 1772223944439
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 66,
+    "symbol": "R_100",
+    "ts": 1772223942000,
+    "quote": 821.27,
+    "receivedAt": 1772223942476
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 84,
+    "symbol": "R_100",
+    "ts": 1772223940000,
+    "quote": 821.44,
+    "receivedAt": 1772223940495
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 75,
+    "symbol": "R_100",
+    "ts": 1772223938000,
+    "quote": 821.35,
+    "receivedAt": 1772223938469
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 82,
+    "symbol": "R_100",
+    "ts": 1772223936000,
+    "quote": 821.43,
+    "receivedAt": 1772223936480
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223934000,
+    "quote": 821.78,
+    "receivedAt": 1772223934469
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223932000,
+    "quote": 821.63,
+    "receivedAt": 1772223932458
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 52,
+    "symbol": "R_100",
+    "ts": 1772223930000,
+    "quote": 822.12,
+    "receivedAt": 1772223930469
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 74,
+    "symbol": "R_100",
+    "ts": 1772223928000,
+    "quote": 822.34,
+    "receivedAt": 1772223928480
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 59,
+    "symbol": "R_100",
+    "ts": 1772223926000,
+    "quote": 822.19,
+    "receivedAt": 1772223926516
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 93,
+    "symbol": "R_100",
+    "ts": 1772223924000,
+    "quote": 822.54,
+    "receivedAt": 1772223924479
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 75,
+    "symbol": "R_100",
+    "ts": 1772223922000,
+    "quote": 822.35,
+    "receivedAt": 1772223922489
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 76,
+    "symbol": "R_100",
+    "ts": 1772223920000,
+    "quote": 822.36,
+    "receivedAt": 1772223920755
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 74,
+    "symbol": "R_100",
+    "ts": 1772223918000,
+    "quote": 822.34,
+    "receivedAt": 1772223918473
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 82,
+    "symbol": "R_100",
+    "ts": 1772223916000,
+    "quote": 822.43,
+    "receivedAt": 1772223916457
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 91,
+    "symbol": "R_100",
+    "ts": 1772223914000,
+    "quote": 822.52,
+    "receivedAt": 1772223914462
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 75,
+    "symbol": "R_100",
+    "ts": 1772223912000,
+    "quote": 822.35,
+    "receivedAt": 1772223912460
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 93,
+    "symbol": "R_100",
+    "ts": 1772223910000,
+    "quote": 822.54,
+    "receivedAt": 1772223910475
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 77,
+    "symbol": "R_100",
+    "ts": 1772223908000,
+    "quote": 822.37,
+    "receivedAt": 1772223908551
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 63,
+    "symbol": "R_100",
+    "ts": 1772223906000,
+    "quote": 822.23,
+    "receivedAt": 1772223906441
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 59,
+    "symbol": "R_100",
+    "ts": 1772223904000,
+    "quote": 822.19,
+    "receivedAt": 1772223904489
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 77,
+    "symbol": "R_100",
+    "ts": 1772223902000,
+    "quote": 822.38,
+    "receivedAt": 1772223902460
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 91,
+    "symbol": "R_100",
+    "ts": 1772223900000,
+    "quote": 822.52,
+    "receivedAt": 1772223900976
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 89,
+    "symbol": "R_100",
+    "ts": 1772223898000,
+    "quote": 822.49,
+    "receivedAt": 1772223898478
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 91,
+    "symbol": "R_100",
+    "ts": 1772223896000,
+    "quote": 822.52,
+    "receivedAt": 1772223896480
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223894000,
+    "quote": 822.61,
+    "receivedAt": 1772223894503
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223892000,
+    "quote": 822.7,
+    "receivedAt": 1772223892475
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223890000,
+    "quote": 822.77,
+    "receivedAt": 1772223890467
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772223888000,
+    "quote": 822.51,
+    "receivedAt": 1772223888477
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 79,
+    "symbol": "R_100",
+    "ts": 1772223886000,
+    "quote": 822.4,
+    "receivedAt": 1772223886479
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 88,
+    "symbol": "R_100",
+    "ts": 1772223884000,
+    "quote": 822.48,
+    "receivedAt": 1772223884490
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 81,
+    "symbol": "R_100",
+    "ts": 1772223882000,
+    "quote": 822.42,
+    "receivedAt": 1772223882476
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 72,
+    "symbol": "R_100",
+    "ts": 1772223880000,
+    "quote": 822.32,
+    "receivedAt": 1772223880457
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 60,
+    "symbol": "R_100",
+    "ts": 1772223878000,
+    "quote": 822.2,
+    "receivedAt": 1772223878493
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 56,
+    "symbol": "R_100",
+    "ts": 1772223876000,
+    "quote": 822.17,
+    "receivedAt": 1772223876477
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 59,
+    "symbol": "R_100",
+    "ts": 1772223874000,
+    "quote": 822.19,
+    "receivedAt": 1772223874546
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 47,
+    "symbol": "R_100",
+    "ts": 1772223872000,
+    "quote": 822.07,
+    "receivedAt": 1772223872529
+  },
+  {
+    "entry": 2,
+    "prediction": 2,
+    "strength": 42,
+    "symbol": "R_100",
+    "ts": 1772223870000,
+    "quote": 822.03,
+    "receivedAt": 1772223870489
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223868000,
+    "quote": 821.93,
+    "receivedAt": 1772223868512
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223866000,
+    "quote": 821.69,
+    "receivedAt": 1772223866485
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223864000,
+    "quote": 821.84,
+    "receivedAt": 1772223864475
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223862000,
+    "quote": 821.86,
+    "receivedAt": 1772223862480
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223860000,
+    "quote": 821.57,
+    "receivedAt": 1772223860520
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223858000,
+    "quote": 821.83,
+    "receivedAt": 1772223858513
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223856000,
+    "quote": 821.71,
+    "receivedAt": 1772223856502
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223854000,
+    "quote": 821.64,
+    "receivedAt": 1772223854444
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223852000,
+    "quote": 821.82,
+    "receivedAt": 1772223852456
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772223850000,
+    "quote": 821.5,
+    "receivedAt": 1772223850468
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 62,
+    "symbol": "R_100",
+    "ts": 1772223848000,
+    "quote": 821.22,
+    "receivedAt": 1772223848455
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 57,
+    "symbol": "R_100",
+    "ts": 1772223846000,
+    "quote": 821.18,
+    "receivedAt": 1772223846490
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 69,
+    "symbol": "R_100",
+    "ts": 1772223844000,
+    "quote": 821.3,
+    "receivedAt": 1772223844447
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 64,
+    "symbol": "R_100",
+    "ts": 1772223842000,
+    "quote": 821.24,
+    "receivedAt": 1772223842475
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 57,
+    "symbol": "R_100",
+    "ts": 1772223840000,
+    "quote": 821.18,
+    "receivedAt": 1772223840471
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 60,
+    "symbol": "R_100",
+    "ts": 1772223838000,
+    "quote": 821.2,
+    "receivedAt": 1772223838623
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 77,
+    "symbol": "R_100",
+    "ts": 1772223836000,
+    "quote": 821.38,
+    "receivedAt": 1772223836564
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 87,
+    "symbol": "R_100",
+    "ts": 1772223834000,
+    "quote": 821.47,
+    "receivedAt": 1772223834610
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223832000,
+    "quote": 821.81,
+    "receivedAt": 1772223832501
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223830000,
+    "quote": 821.79,
+    "receivedAt": 1772223830464
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 95,
+    "symbol": "R_100",
+    "ts": 1772223828000,
+    "quote": 821.89,
+    "receivedAt": 1772223828450
+  },
+  {
+    "entry": 1,
+    "prediction": 1,
+    "strength": 90,
+    "symbol": "R_100",
+    "ts": 1772223826000,
+    "quote": 821.5,
+    "receivedAt": 1772223826499
+  }
+]

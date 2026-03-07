@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "my-react-app/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "my-react-app/dist",
+        "buildCommand": "npm --prefix my-react-app run build"
+      }      
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/my-react-app/dist/assets/$1"
+    },
+    {
+      "src": "/(.*\\.(css|js|mjs|png|jpg|jpeg|svg|gif|ico|webp|txt|map|json))",
+      "dest": "/my-react-app/dist/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/my-react-app/dist/index.html"
+    }
+  ],
+  "regions": ["iad1"]
+}

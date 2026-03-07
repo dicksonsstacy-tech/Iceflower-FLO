@@ -1,0 +1,10 @@
+[
+  {
+    "id": "admin-root",
+    "username": "admin",
+    "role": "owner",
+    "status": "active",
+    "createdAt": 0,
+    "updatedAt": 0
+  }
+]
