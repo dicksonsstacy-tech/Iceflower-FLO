@@ -378,6 +378,10 @@ app.use((req, res, next) => {
 
 app.get('/api/health', (req, res) => res.json({ ok: true, mode: 'ICEFLOWER FLO REALM' }))
 
+app.get('/', (req, res) => {
+  return res.status(200).send('Iceflower FLO backend is running. Use /api/health for status.')
+})
+
 app.get('/api/config', (req, res) => {
   return res.json({
     appId: DERIV_APP_ID ? Number(DERIV_APP_ID) : null,
