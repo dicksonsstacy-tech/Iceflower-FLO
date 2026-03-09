@@ -215,6 +215,22 @@ body {
   flex-wrap: wrap;
 }
 
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 170px;
+}
+
+.controls input,
+.controls select {
+  border: 1px solid rgba(140, 222, 255, 0.35);
+  background: rgba(8, 20, 44, 0.8);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
 .sigil-btn {
   border: 0;
   border-radius: 12px;
@@ -263,6 +279,41 @@ body {
   color: var(--glyph);
 }
 
+.trade-table {
+  display: grid;
+  gap: 8px;
+}
+
+.trade-head,
+.trade-row {
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.trade-head {
+  border: 1px solid rgba(124, 210, 255, 0.35);
+  color: var(--ice);
+  background: rgba(7, 18, 41, 0.85);
+  font-size: 0.82rem;
+}
+
+.trade-row {
+  border: 1px solid rgba(124, 210, 255, 0.2);
+  background: rgba(9, 23, 48, 0.7);
+  font-size: 0.82rem;
+}
+
+.summary-grid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+}
+
 @media (max-width: 1024px) {
   .panel {
     grid-column: span 6;
@@ -291,6 +342,15 @@ body {
   }
 
   .alert-item {
+    grid-template-columns: 1fr;
+  }
+
+  .trade-head,
+  .trade-row {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-grid {
     grid-template-columns: 1fr;
   }
 }

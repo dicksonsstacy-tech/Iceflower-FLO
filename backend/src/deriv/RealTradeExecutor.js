@@ -65,7 +65,7 @@ class RealTradeExecutor {
     const proposalOpts = {
       amount: position.stake,
       basis: 'stake',
-      contract_type: 'DIGITMATCH',
+      contract_type: String(position.contract_type || 'DIGITDIFF'),
       symbol: position.symbol || 'R_100',
       duration: position.duration || 1,
       duration_unit: position.duration_unit || 't',

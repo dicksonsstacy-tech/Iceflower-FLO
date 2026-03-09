@@ -61,7 +61,7 @@ export default class FixedDerivClient extends EventEmitter {
 
           if (json.error) {
             console.error('❌ Deriv error:', json.error)
-            this.emit('error', json.error)
+            this.emit('deriv_error', json.error)
             return
           }
 
@@ -144,6 +144,10 @@ export default class FixedDerivClient extends EventEmitter {
     return buy
   }
 
+  async getLatestTick(symbol = 'R_100', timeoutMs = 10000) {
+    return await this.sendRequest({ ticks: symbol }, 'tick', timeoutMs)
+  }
+
   async getContractInfo(contractId, timeoutMs = 30000) {
     const parsedContractId = Number(contractId)
     if (!Number.isFinite(parsedContractId) || parsedContractId <= 0) {
@@ -198,3 +202,4 @@ export default class FixedDerivClient extends EventEmitter {
     return this.accountInfo
   }
 }
+

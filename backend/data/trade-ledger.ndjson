@@ -1,0 +1,661 @@
+{"ts":1773046225214,"type":"trader_started","config":{"maxStakePerTrade":6000,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":3,"bulkTradesPerCycle":3,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773046230370,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046235459,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046240498,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046245522,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046250547,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046255581,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046260606,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046265630,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046270644,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046275673,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046280690,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046285716,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046290741,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046295771,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046300781,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046305796,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046311027,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046316170,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046321241,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046326292,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046331366,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046336385,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046341410,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046346426,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046351446,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046356458,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046361472,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046366483,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046371508,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046376531,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046381548,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046386563,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046391585,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046396611,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046401625,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046406648,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046411664,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046416676,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046421691,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046426708,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046431726,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046436751,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046441766,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046446780,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046451801,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046456812,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046461833,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046466845,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046471933,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046477048,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046482196,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046487313,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046492340,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046497362,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046502375,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046507452,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046512480,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046517499,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046522523,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046527539,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046532558,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046537588,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046542606,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046547630,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046552661,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046557681,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046562700,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046567711,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046572733,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046577769,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046582786,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046631593,"type":"trader_started","config":{"maxStakePerTrade":6000,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":3,"bulkTradesPerCycle":3,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773046644658,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046657689,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046671028,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046684084,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046697110,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046710142,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046723167,"type":"ml_failure","error":"ML service returned HTTP 502"}
+{"ts":1773046829131,"type":"trader_started","config":{"maxStakePerTrade":6000,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":3,"bulkTradesPerCycle":3,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773046865922,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773046896287,"type":"trade_execution_error","error":"timeout","bulkIndex":2}
+{"ts":1773046926666,"type":"trade_execution_error","error":"timeout","bulkIndex":3}
+{"ts":1773046970303,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047000700,"type":"trade_execution_error","error":"timeout","bulkIndex":2}
+{"ts":1773047012328,"type":"trader_stopped","reason":"manual_stop"}
+{"ts":1773047012339,"type":"trader_started","config":{"maxStakePerTrade":6000,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":3,"bulkTradesPerCycle":3,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773047117518,"type":"trader_started","config":{"maxStakePerTrade":1,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":1,"bulkTradesPerCycle":1,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773047153680,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047196714,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047239767,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047282808,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047325851,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047368889,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047411960,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047455004,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047498042,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047541093,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047584121,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047627155,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047670188,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047713230,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047756267,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047799296,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047842379,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047885423,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047928456,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773047971485,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048023267,"type":"trader_started","config":{"maxStakePerTrade":5,"defaultStake":5,"stakeFloor":1,"stakeCeiling":5,"payoutEstimate":0.894,"maxDailyLoss":10,"dailyProfitTarget":5000,"stopOnAnyLoss":true,"confidenceThreshold":0.8,"maxConcurrentTrades":1,"bulkTradesPerCycle":1,"maxConsecutiveLosses":3,"maxPendingTradeAgeMs":180000}}
+{"ts":1773048060209,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048103665,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048147250,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048190803,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048234289,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048277696,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048321063,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048364466,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048408047,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048451959,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048495356,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048538733,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048582115,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048625634,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048669007,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048712671,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048756269,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048799710,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048843136,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048886756,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048930370,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773048973817,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049017315,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049060832,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049104203,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049147665,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049191073,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049234887,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049278595,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049322212,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049366074,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049409639,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049453034,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049496677,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049540198,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049583673,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049627115,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049670573,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049714371,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049758103,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049801685,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049845058,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049888658,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049932452,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773049976046,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050019969,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050063697,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050107398,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050150784,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050194505,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050237875,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050281348,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050326261,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050371389,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050414879,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050458981,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773050465282,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050470716,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050478653,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050484614,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050490606,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050497249,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050507260,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050513158,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050518704,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050524190,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050529856,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050535370,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050544193,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050549808,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050556105,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050561708,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050567081,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050572532,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050578236,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050584030,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050590271,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050596630,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050603780,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050609793,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050615135,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050620621,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050627411,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050633909,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050640599,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050646994,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050652701,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050658361,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050663806,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050670468,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050677329,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050685335,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050691237,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050697115,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050702670,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050708393,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050713735,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050721211,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050728142,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050733461,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050738914,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050744634,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050759976,"type":"trade_execution_error","error":"Connection timeout","bulkIndex":1}
+{"ts":1773050765496,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050771001,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050776378,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050781592,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050786746,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050791968,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050797155,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050802334,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050808177,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050813557,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050818729,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050823959,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050829288,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050834562,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050839774,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050845256,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050850800,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050856540,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050862005,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050867250,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050872930,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050878307,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050883565,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050888960,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050894839,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050900398,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050905758,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050911023,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050916319,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050921527,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050926765,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050932001,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050937520,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050943510,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050949167,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050954509,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050959736,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050965023,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050970337,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050975573,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050981070,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050986703,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050992257,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773050997631,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051003180,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051008971,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051014491,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051020010,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051025319,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051031017,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051036478,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051041827,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051047156,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051052421,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051057687,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051063207,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051068790,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051074596,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051080958,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051086761,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051093734,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051099503,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051106501,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051111791,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051117087,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051122380,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051127677,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051135912,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051141577,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051147217,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051153105,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051158706,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051164011,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051169252,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051174487,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051179753,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051185065,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051190418,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051195697,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051202018,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051207346,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051212630,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051217861,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051223076,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051228394,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051233933,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051239208,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051244442,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051249802,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051255048,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051260432,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051265928,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051271197,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051276445,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051282242,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051288013,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051293614,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051299151,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051304688,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051310373,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051316164,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051321884,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051327296,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051332528,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051338058,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051343297,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051348592,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051354286,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051360090,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051365471,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051370698,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051375932,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051381167,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051386399,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051391622,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051396867,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051402408,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051407643,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051413137,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051418390,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051423604,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051428852,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051434124,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051439350,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051444614,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051449894,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051455153,"type":"trade_execution_error","error":"read ECONNRESET","bulkIndex":1}
+{"ts":1773051460363,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773051465396,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773051506283,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051550646,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051596418,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051641656,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051686191,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051729610,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051773136,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051816539,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051859904,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051903234,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051946656,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773051989997,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052033356,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052077120,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052120642,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052164005,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052207357,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052250696,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052294093,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052337571,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052380945,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052424304,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052467662,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052511027,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052554575,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052597977,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052641341,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052684727,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052728300,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052771687,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052815274,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052858743,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052902108,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052945660,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773052989104,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053032647,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053076033,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053119655,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053162994,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053206449,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053249785,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053293121,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053336491,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053379908,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053423247,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053466867,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053510470,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053553854,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053597195,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053640601,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053683998,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053727329,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053770754,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053814116,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053857576,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053912008,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053955476,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773053998922,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054042276,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054085649,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054129043,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054172484,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054215831,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054259210,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054302547,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054345912,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054389268,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054432643,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054475989,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054519335,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054562877,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054606253,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054649603,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054693125,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054736680,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054780041,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054823589,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054866915,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054910434,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054954517,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773054998557,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055044025,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055087693,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055131255,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055174918,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055218280,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055261645,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055305271,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055348799,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055392133,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055435609,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055478966,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055522399,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055565734,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055609216,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055652820,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055696185,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055739566,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055782940,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055826273,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055869893,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055913283,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773055956725,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056000795,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056044409,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056088106,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056131673,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056175023,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056218552,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056261947,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056305591,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056348942,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056392314,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056435669,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056479031,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056522547,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056565913,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056609229,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056652588,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056695928,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056739291,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056782654,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056826431,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056869846,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056913246,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056956652,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773056999989,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057043475,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057086865,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057130475,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057173812,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057217285,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057260692,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057304544,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057347912,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057391301,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057434627,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057477958,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057521315,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057564668,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057608262,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057651599,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057695127,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057738654,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057781981,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057825321,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057868674,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057911992,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057955416,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773057998790,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058060707,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058104084,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058147549,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058190925,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058234495,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058277851,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058321234,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058364588,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058407962,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058451392,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058496935,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058540290,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058583687,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058627032,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058670445,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058714591,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058758353,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058801769,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058845100,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058888452,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058932092,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773058975680,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059018989,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059062407,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059105760,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059149550,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059192904,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059236280,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059279664,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059323069,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059366423,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059409762,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059453183,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059497688,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059541195,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059584554,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059627961,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059671460,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059714821,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059758162,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059801544,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059844915,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059888328,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059931742,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773059975198,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060022349,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060065758,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060109742,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060154725,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060198104,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060241513,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060284853,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060328238,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060371585,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060414926,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060458674,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060502509,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060545816,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060589164,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060632579,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060675926,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060719641,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060763128,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060806560,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060849943,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060893707,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060937089,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773060980515,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061023932,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061067469,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061110821,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061154234,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061197657,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061241529,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061284859,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061328172,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061371528,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061414884,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061458215,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061501560,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061544925,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061588377,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061631715,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061675512,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061718980,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061762351,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061805691,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061849212,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061892563,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061935906,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773061979319,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062022678,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062066396,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062109897,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062153562,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062197080,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062240461,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062284115,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062327634,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062371075,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062414735,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062458139,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062501556,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062544882,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062588242,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062631572,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062675152,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062718900,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062762273,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062805622,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062850219,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062893671,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773062898843,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062903872,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062909008,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062914040,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062919134,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062924163,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062929199,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062934229,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062939268,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062944298,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062949319,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062954345,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062959376,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062964462,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062969488,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062974524,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062979557,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062984591,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062989615,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062994644,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773062999683,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063004715,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063009746,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063014771,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063019793,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063024829,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063029861,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063034887,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063074980,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063122074,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063165845,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063213977,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063258025,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063301449,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063344830,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063387929,"type":"trade_execution_error","error":"timeout","bulkIndex":1}
+{"ts":1773063393102,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063398138,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063403171,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063408198,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063413230,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063418263,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063423287,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063428317,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063433338,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063438362,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063443391,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063448421,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063453447,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063458474,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063463498,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063468520,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063473540,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773063479947,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773064719659,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773064725431,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
+{"ts":1773064731130,"type":"trade_execution_error","error":"getaddrinfo ENOTFOUND ws.derivws.com","bulkIndex":1}
