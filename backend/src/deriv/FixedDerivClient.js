@@ -22,9 +22,7 @@ export default class FixedDerivClient extends EventEmitter {
 
       if (this.ws && this.ws.readyState === WebSocket.OPEN) {
         // Already connected, just need to authorize
-        if (this.token) {
-          this.send({ authorize: this.token })
-        }
+        this.safeAuthorize()
         resolve()
         return
       }
@@ -40,10 +38,8 @@ export default class FixedDerivClient extends EventEmitter {
         clearTimeout(timeout)
         this.connected = true
         console.log('✅ Deriv WebSocket connected')
-        
-        if (this.token) {
-          this.send({ authorize: this.token })
-        }
+
+        this.safeAuthorize()
       })
 
       this.ws.on('message', (raw) => {
@@ -90,6 +86,15 @@ export default class FixedDerivClient extends EventEmitter {
       throw new Error('WebSocket not connected')
     }
     this.ws.send(JSON.stringify(obj))
+  }
+
+  safeAuthorize() {
+    if (!this.token) return
+    try {
+      this.send({ authorize: this.token })
+    } catch (error) {
+      console.error('❌ Failed to send authorize:', error.message)
+    }
   }
 
   async sendRequest(obj, expectedKey, timeoutMs = 30000) {
