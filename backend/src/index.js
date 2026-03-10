@@ -17,7 +17,10 @@ dotenv.config({ override: true })
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const DATA_DIR = path.resolve(__dirname, '../data')
+const DEFAULT_DATA_DIR = path.resolve(__dirname, '../data')
+const RENDER_DATA_DIR = '/data'
+const DATA_DIR = process.env.DATA_DIR
+  || (existsSync(RENDER_DATA_DIR) ? RENDER_DATA_DIR : DEFAULT_DATA_DIR)
 const USERS_FILE = path.join(DATA_DIR, 'users.json')
 const ADMIN_SESSIONS_FILE = path.join(DATA_DIR, 'admin-sessions.json')
 const TRADE_LEDGER_FILE = process.env.TRADE_LEDGER_PATH || path.join(DATA_DIR, 'trade-ledger.ndjson')
