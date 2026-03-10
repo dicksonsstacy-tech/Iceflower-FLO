@@ -4,6 +4,7 @@ import dotenv from 'dotenv'
 import http from 'http'
 import crypto from 'crypto'
 import fs from 'fs/promises'
+import { existsSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { Server as SocketIO } from 'socket.io'
@@ -18,10 +19,16 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const DATA_DIR = path.resolve(__dirname, '../data')
 const USERS_FILE = path.join(DATA_DIR, 'users.json')
+const ADMIN_SESSIONS_FILE = path.join(DATA_DIR, 'admin-sessions.json')
 const TRADE_LEDGER_FILE = process.env.TRADE_LEDGER_PATH || path.join(DATA_DIR, 'trade-ledger.ndjson')
+const FRONTEND_DIST_DIR = path.resolve(__dirname, '../public')
+const HAS_FRONTEND_DIST = existsSync(path.join(FRONTEND_DIST_DIR, 'index.html'))
 
 const app = express()
 app.use(express.json())
+if (HAS_FRONTEND_DIST) {
+  app.use(express.static(FRONTEND_DIST_DIR))
+}
 
 const isVercel = process.env.VERCEL === '1' || process.env.VERCEL === 'true'
 const DERIV_APP_ID = process.env.DERIV_APP_ID
@@ -143,6 +150,51 @@ async function ensureDerivClient(mode = activeTradingMode, { forceReconnect = fa
 
 const adminSessions = new Map()
 const loginAttempts = new Map()
+
+async function ensureSessionStore() {
+  await fs.mkdir(DATA_DIR, { recursive: true })
+  try {
+    await fs.access(ADMIN_SESSIONS_FILE)
+  } catch {
+    await fs.writeFile(ADMIN_SESSIONS_FILE, JSON.stringify({}, null, 2), 'utf8')
+  }
+}
+
+function pruneExpiredAdminSessions() {
+  const now = Date.now()
+  let removed = 0
+  for (const [token, session] of adminSessions.entries()) {
+    if (!session?.expiresAt || now > session.expiresAt) {
+      adminSessions.delete(token)
+      removed += 1
+    }
+  }
+  return removed
+}
+
+async function persistAdminSessions() {
+  await ensureSessionStore()
+  const data = Object.fromEntries(adminSessions.entries())
+  await fs.writeFile(ADMIN_SESSIONS_FILE, JSON.stringify(data, null, 2), 'utf8')
+}
+
+async function loadAdminSessions() {
+  try {
+    await ensureSessionStore()
+    const raw = await fs.readFile(ADMIN_SESSIONS_FILE, 'utf8')
+    const parsed = JSON.parse(raw)
+    if (parsed && typeof parsed === 'object') {
+      for (const [token, session] of Object.entries(parsed)) {
+        if (!session?.expiresAt || Date.now() > session.expiresAt) continue
+        adminSessions.set(token, session)
+      }
+    }
+    pruneExpiredAdminSessions()
+    await persistAdminSessions()
+  } catch (error) {
+    console.error('Failed to load session database:', error.message)
+  }
+}
 
 const serverlessCalcState = {
   isRunning: false,
@@ -310,17 +362,19 @@ function extractAdminToken(req) {
   return ''
 }
 
-function createSession(payload) {
+async function createSession(payload) {
   const token = crypto.randomBytes(24).toString('hex')
   adminSessions.set(token, {
     ...payload,
     createdAt: Date.now(),
     expiresAt: Date.now() + SESSION_TTL_MS
   })
+  await persistAdminSessions()
   return token
 }
 
 function requireAdmin(req, res, next) {
+  pruneExpiredAdminSessions()
   const token = extractAdminToken(req)
   const ip = getClientIp(req)
   const session = token ? adminSessions.get(token) : null
@@ -336,6 +390,7 @@ function requireAdmin(req, res, next) {
 
   if (Date.now() > session.expiresAt) {
     adminSessions.delete(token)
+    persistAdminSessions().catch(() => {})
     alertManager.alert('tamper_expired_session', 'Expired admin session used', 'warning', {
       path: req.path,
       method: req.method,
@@ -379,6 +434,9 @@ app.use((req, res, next) => {
 app.get('/api/health', (req, res) => res.json({ ok: true, mode: 'ICEFLOWER FLO REALM' }))
 
 app.get('/', (req, res) => {
+  if (HAS_FRONTEND_DIST) {
+    return res.sendFile(path.join(FRONTEND_DIST_DIR, 'index.html'))
+  }
   return res.status(200).send('Iceflower FLO backend is running. Use /api/health for status.')
 })
 
@@ -466,7 +524,7 @@ app.post('/api/auth/login', async (req, res) => {
       role: 'owner',
       status: 'active'
     }
-    const token = createSession({
+    const token = await createSession({
       userId: primaryUser.id,
       username: primaryUser.username,
       role: primaryUser.role
@@ -502,9 +560,22 @@ app.get('/api/auth/me', requireAdmin, (req, res) => {
   })
 })
 
-app.post('/api/auth/logout', requireAdmin, (req, res) => {
+app.post('/api/auth/logout', requireAdmin, async (req, res) => {
   adminSessions.delete(req.adminToken)
+  await persistAdminSessions()
   return res.json({ ok: true })
+})
+
+app.post('/api/auth/logout-all', requireAdmin, async (req, res) => {
+  const actor = req.adminSession?.username || 'admin'
+  const activeCount = adminSessions.size
+  adminSessions.clear()
+  await persistAdminSessions()
+  alertManager.alert('auth_logout_all', 'All admin sessions were terminated', 'warning', {
+    actor,
+    activeSessionsBeforeClear: activeCount
+  })
+  return res.json({ ok: true, message: 'All sessions logged out', cleared: activeCount })
 })
 
 app.get('/api/admin/users', requireAdmin, async (req, res) => {
@@ -1051,7 +1122,21 @@ app.use('/api', (req, res) => {
   return res.status(404).json({ ok: false, error: 'API route not found' })
 })
 
+if (HAS_FRONTEND_DIST) {
+  app.get('*', (req, res) => {
+    return res.sendFile(path.join(FRONTEND_DIST_DIR, 'index.html'))
+  })
+}
+
 if (!isVercel) {
+  await loadAdminSessions()
+  setInterval(() => {
+    const removed = pruneExpiredAdminSessions()
+    if (removed > 0) {
+      persistAdminSessions().catch(() => {})
+    }
+  }, 5 * 60 * 1000)
+
   const port = process.env.PORT || 4000
   server.listen(port, () => {
     console.log(`Iceflower FLO Realm Backend running on port ${port}`)
